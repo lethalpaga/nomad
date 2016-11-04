@@ -134,7 +134,7 @@ $ vault policy-write nomad-server nomad-server-policy.hcl
 $ editor nomad-server-role.json
 
 # Create the role with Vault
-$ vault write /auth/token/roles/nomad @nomad-server-role.json
+$ vault write /auth/token/roles/nomad-server @nomad-server-role.json
 ```
 
 #### Retrieving the Role based Token
